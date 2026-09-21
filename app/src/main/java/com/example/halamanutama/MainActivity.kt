@@ -60,7 +60,7 @@ class WaveBottomShape(private val waveHeight: Dp = 28.dp) : Shape {
     }
 }
 
-// Tanggal pada date selector
+// Pemilihan tanggal
 data class DateOption(val day: Int, val label: String)
 
 class MainActivity : ComponentActivity() {
