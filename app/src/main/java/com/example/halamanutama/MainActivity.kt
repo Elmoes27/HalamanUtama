@@ -94,7 +94,7 @@ fun MovieTicketBooking() {
             .fillMaxSize()
             .background(SoftBg)
     ) {
-        // ===== HEADER (dengan wave di bagian bawah) =====
+        // Header atas
         Column(
             modifier = Modifier
                 .fillMaxWidth()
@@ -114,7 +114,7 @@ fun MovieTicketBooking() {
             )
         }
 
-        // ===== KONTEN =====
+        // Isian konten
         Column(
             modifier = Modifier
                 .fillMaxWidth()
@@ -123,7 +123,7 @@ fun MovieTicketBooking() {
             verticalArrangement = Arrangement.spacedBy(16.dp)
         ) {
 
-            // ===== DATE SELECTOR =====
+            // Pemilihan tanggal
             Row(
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.spacedBy(10.dp)
@@ -155,7 +155,7 @@ fun MovieTicketBooking() {
                 }
             }
 
-            // Kotak Harga Tiket (dengan judul film di dalamnya)
+            // Kotak harga + judul film
             Card(
                 modifier = Modifier.fillMaxWidth(),
                 shape = RoundedCornerShape(16.dp)
@@ -270,7 +270,7 @@ fun MovieTicketBooking() {
             }
         }
 
-        // ===== BOTTOM ACTION BAR (hanya tombol Reset) =====
+        // Tombol reset
         Column(
             modifier = Modifier
                 .fillMaxWidth()
